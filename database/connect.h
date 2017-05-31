@@ -30,7 +30,7 @@ static bool createConnection()
 //    db.setUserName(strUsername);
 //    db.setPassword(strPasswd);
 
-    /* 切换为SQLIte数据库*/
+    /* 切换为SQLIte数据库,还没有测试*/
     QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
     db.setDatabaseName("gacsqlite.db");
 
